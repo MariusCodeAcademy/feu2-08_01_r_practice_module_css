@@ -13,42 +13,42 @@ const sectionData = {
   gainCards: [
     {
       id: 1,
-      icon: 'fa-envelope',
+      icon: 'envelope',
       title: 'Measure your performance',
       descr:
         'Stay connected with your team and make quick decisions wherever you are.',
     },
     {
       id: 2,
-      icon: 'fa-envelope',
+      icon: 'facebook',
       title: 'Custom analytics',
       descr:
         'Stay connected with your team and make quick decisions wherever you are.',
     },
     {
       id: 3,
-      icon: 'fa-envelope',
+      icon: 'instagram',
       title: 'Team Management',
       descr:
         'Stay connected with your team and make quick decisions wherever you are.',
     },
     {
       id: 4,
-      icon: 'fa-envelope',
+      icon: 'home',
       title: 'Build your website',
       descr:
         'Stay connected with your team and make quick decisions wherever you are.',
     },
     {
       id: 5,
-      icon: 'fa-envelope',
+      icon: 'envelope',
       title: 'Connect multiple apps',
       descr:
         'Stay connected with your team and make quick decisions wherever you are.',
     },
     {
       id: 6,
-      icon: 'fa-envelope',
+      icon: 'envelope',
       title: 'Easy setup',
       descr:
         'Stay connected with your team and make quick decisions wherever you are.',

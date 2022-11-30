@@ -1,3 +1,4 @@
+import SingleCard from './singleCard/SingleCard';
 import Grid from './UI/grid/Grid';
 
 function GainCardsList(props) {
@@ -5,7 +6,12 @@ function GainCardsList(props) {
     <Grid>
       {props.items.map((cObj) => (
         // generuoti SingleCard komponetus
-        <li key={cObj.id}>{cObj.title}</li>
+        <SingleCard
+          key={cObj.id}
+          icon={cObj.icon}
+          title={cObj.title}
+          text={cObj.descr}
+        />
       ))}
     </Grid>
   );
