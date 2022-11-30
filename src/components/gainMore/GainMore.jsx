@@ -9,6 +9,14 @@ const sectionData = {
     subtitle:
       'With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.',
   },
+  gainCards: [
+    {
+      id: 1,
+      icon: 'fa-something',
+      title: 'some title',
+      descr: 'asdasdasda asdasd',
+    },
+  ],
 };
 
 function GainMore(props) {
@@ -20,6 +28,7 @@ function GainMore(props) {
           subtitle={sectionData.sectionTitle.subtitle}
           title={sectionData.sectionTitle.title}
         />
+        {/* <GainCardList card={sectionData.gainCards} /> */}
       </Container>
     </Section>
   );
